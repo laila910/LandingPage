@@ -202,6 +202,52 @@
             margin-bottom: 20px;
             font-weight: lighter;
         }
+        
+        #section4 {
+            background-color: #fff;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+        
+        #section4 .contain>h1 {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        
+        #section4 .contain article figure {
+            margin-bottom: 80px;
+        }
+        
+        #section4 .contain article figure figcaption p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #0C78B8;
+            font-weight: lighter;
+            margin-top: 20px;
+        }
+        
+        #section4 .contain article figure figcaption a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 15px 5px;
+            background-color: #0C78B8;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+        
+        #section4 .contain article figure .imgplustext1 img,
+        #section4 .contain article figure .imgplustext2 img,
+        #section4 .contain article figure .imgplustext3 img,
+        #section4 .contain article figure .imgplustext4 img,
+        #section4 .contain article figure .imgplustext5 img,
+        #section4 .contain article figure .imgplustext6 img {
+            border: 1px solid #000;
+            border-radius: 50%;
+        }
         /*------------------- */
         
         @media (min-width:576px) {}
@@ -262,84 +308,27 @@
                 font-size: 2.5rem;
                 margin-bottom: 30px;
             }
-            #section4 .container article figure figcaption a {
+            #section4 .contain article {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding-bottom: 20px;
+            }
+            #section4 .contain article figure figcaption a {
                 padding: 10px 20px 10px;
             }
-            #section4 .container article figure>div {
-                height: 100vh;
-            }
-            #section4 .container article figure .imgplustext1 .text h1,
-            #section4 .container article figure .imgplustext2 .text h1,
-            #section4 .container article figure .imgplustext3 .text h1 {
+            #section4 .contain article figure .imgplustext1,
+            #section4 .contain article figure .imgplustext2,
+            #section4 .contain article figure .imgplustext3,
+            #section4 .contain article figure .imgplustext4,
+            #section4 .contain article figure .imgplustext5,
+            #section4 .contain article figure .imgplustext6 {
                 width: 100%;
                 text-align: center;
                 margin-bottom: -6px;
             }
-            #section4 .container article figure {
+            #section4 .contain article figure {
                 margin-bottom: 100px;
-            }
-            #section5 .container .images {
-                display: flex;
-                justify-content: space-evenly;
-            }
-            #section5 .container .images .item2 img {
-                margin-left: 10px;
-            }
-            #section5 .container .links {
-                flex-direction: row;
-            }
-            #section6 .container div p .greyico {
-                transform: translate(-200px, 66px);
-            }
-            #section6 .container div p .orangeico {
-                transform: translate(-200px, 66px);
-            }
-            #section7 .container form .subform1 {
-                display: flex;
-                justify-content: space-between;
-            }
-            #section7 .container form .subform1 input:first-of-type {
-                flex-grow: 1;
-                margin-right: 10px;
-            }
-            #section7 .container form .subform1 input:last-of-type {
-                flex-grow: 1;
-            }
-            #section7 .container form .subform2 {
-                flex-wrap: nowrap;
-                justify-content: space-between;
-            }
-            #section7 .container form div input:not(.button) {
-                padding: 20px 50px 20px 30px;
-                margin-bottom: 30px;
-            }
-            #section7 .container form .subform2 input:first-of-type {
-                flex-grow: 1;
-                margin-right: 10px;
-            }
-            #section7 .container form .subform2 .button {
-                padding: 20px 50px 20px 30px;
-                font-size: 1rem;
-                flex-grow: 0;
-                align-self: flex-start;
-            }
-            #section9 .container {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
-            #section9 .container .cont1,
-            #section9 .container .cont2,
-            #section9 .container .cont3,
-            #section9 .container .cont4 {
-                width: 49%;
-            }
-            #section9 .container .cont1,
-            #section9 .container .cont3 {
-                margin-right: 10px;
-            }
-            #section9 .container h2 {
-                text-align: left;
             }
         }
         
@@ -408,96 +397,38 @@
             #section3 {
                 background-size: 100%;
             }
-            #section4 .container article {
-                display: flex;
-                justify-content: space-evenly;
+            #section4 .contain h1 {
+                font-size: 2.1rem;
+                margin-bottom: 60px;
             }
-            #section4 .container article figure>div {
-                height: 45vh;
-            }
-            #section4 .container article figure {
+            #section4 .contain article figure {
                 margin-left: 10px;
             }
-            #section4 .container article figure .imgplustext1 .text h1,
-            #section4 .container article figure .imgplustext2 .text h1,
-            #section4 .container article figure .imgplustext3 .text h1 {
-                text-align: left;
+            #section4 .contain article figure .imgplustext1,
+            #section4 .contain article figure .imgplustext2,
+            #section4 .contain article figure .imgplustext3,
+            #section4 .contain article figure .imgplustxt4,
+            #section4 .contain article figure .imgplustext5,
+            #section4 .contain article figure .imgplustext6 {
                 margin-bottom: -5px;
                 font-size: 1.2rem;
                 text-align: center;
             }
-            #section5 .container .images .item2 {
-                display: flex;
-                flex-wrap: wrap;
-            }
-            #section5 .container .images .item2 img {
-                width: 45%;
-                height: auto;
-            }
-            #section5 .container .links {
-                justify-content: center;
-            }
-            #section6 .container article {
-                display: flex;
-                justify-content: space-between;
-            }
-            #section6 .container article>div {
-                width: 32%;
-            }
-            #section6 .container div p .greyico {
-                transform: translate(-80px, 66px);
-            }
-            #section6 .container div p .orangeico {
-                transform: translate(-80px, 66px);
-            }
-            #section6 .container>h1 {
+            #section4 .contain article figure figcaption p {
                 font-size: 2rem;
             }
-            #section6 .container>p {
-                font-size: 1.1rem;
-                margin-bottom: 60px;
-                font-weight: lighter;
-            }
-            #section7 .container {
+            #section4 .contain article .contain1 {
                 display: flex;
+                justify-content: space-evenly;
+                align-items: center;
             }
-            #section7 .container div,
-            #section7 .container form {
-                width: 49%;
+            #section4 .contain article .contain2 {
+                display: flex;
+                justify-content: center;
             }
-            #section7 .container div h2,
-            #section7 .container div h1 {
-                text-align: left;
-            }
-            #section7 .container div h2 {
-                font-size: 1.7rem;
-                font-weight: bold;
-                line-height: 50px;
-            }
-            #section7 .container div h1 {
-                font-size: 1.7rem;
-            }
-            #section7 .container form .subform2 input:first-of-type {
-                margin-right: 10px;
-                padding: 20px 160px 20px 30px;
-            }
-            #section9 .container .cont2,
-            #section9 .container .cont3,
-            #section9 .container .cont4 {
-                width: 23%;
-            }
-            #section9 .container .cont1 {
-                width: 27%;
-            }
-            #section9 .container .cont3 div h3 {
-                height: 50px;
-                width: 50px;
-                line-height: 50px;
-                font-size: 0.8rem;
-                margin-right: 5px;
-            }
-            #section9 .container .cont3 div p {
-                line-height: 16px;
+            #section4 .contain article .contain2 figure {
+                align-self: center;
+                width: 30%;
             }
         }
         
@@ -533,55 +464,7 @@
             #section3 .contain article figure figcaption div {
                 font-size: 3.2rem;
             }
-            #section5 .container>h1 {
-                font-size: 2.5rem;
-            }
-            #section5 .container>p {
-                font-size: 1.3rem;
-                line-height: 35px;
-                margin-bottom: 50px;
-                font-weight: bold;
-            }
-            #section5 .container .links a {
-                font-size: 1.5rem;
-                margin-bottom: 50px;
-            }
-            #section6 .container div p .greyico {
-                transform: translate(-110px, 66px);
-            }
-            #section6 .container div p .orangeico {
-                transform: translate(-110px, 66px);
-            }
-            #section7 .container div h2 {
-                font-size: 2.4rem;
-                font-weight: bold;
-                line-height: 50px;
-            }
-            #section7 .container div h1 {
-                font-size: 2.5rem;
-            }
-            #section7 .container form .subform1 {
-                display: flex;
-                justify-content: space-between;
-            }
-            #section7 .container form div input:not(.button) {
-                padding: 20px 150px 20px 30px;
-            }
-            #section7 .container form .subform2 input:first-of-type {
-                padding: 20px 360px 20px 30px;
-            }
-            #section4 .container article figure .imgplustext1 .text h1,
-            #section4 .container article figure .imgplustext2 .text h1,
-            #section4 .container article figure .imgplustext3 .text h1 {
-                text-align: left;
-                margin-bottom: -5px;
-                font-size: 1.5rem;
-                text-align: center;
-            }
-            #section9 .container .cont2,
-            #section9 .container .cont3,
-            #section9 .container .cont4,
-            #section9 .container .cont1 {
-                width: 21%;
+            #section4 .contain h1 {
+                font-size: 5rem;
             }
         }
